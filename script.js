@@ -24,39 +24,39 @@ function makeSound(key) {
 
     switch (key) {
         case "a":
-            let clap = new Audio('./assets/sounds/clap.wav');
+            let clap = new Audio('/Assets/sounds/clap.wav');
             clap.play();
             break;
         case "s":
-            let hiHat = new Audio('./assets/sounds/hihat.wav');
+            let hiHat = new Audio('/Assets/sounds/hihat.wav');
             hiHat.play();
             break;
         case "d":
-            let kick = new Audio('./assets/sounds/kick.wav');
+            let kick = new Audio('/Assets/sounds/kick.wav');
             kick.play();
             break;
         case "f":
-            let openHat = new Audio('./assets/sounds/openhat.wav');
+            let openHat = new Audio('/Assets/sounds/openhat.wav');
             openHat.play();
             break;
         case "g":
-            let boom = new Audio('./assets/sounds/boom.wav');
+            let boom = new Audio('/Assets/sounds/boom.wav');
             boom.play();
             break;
         case "h":
-            let ride = new Audio('./assets/sounds/ride.wav');
+            let ride = new Audio('/Assets/sounds/ride.wav');
             ride.play();
             break;
         case "j":
-            let snare = new Audio('./assets/sounds/snare.wav');
+            let snare = new Audio('/Assets/sounds/snare.wav');
             snare.play();
             break;
         case "k":
-            let tom = new Audio('./assets/sounds/tom.wav');
+            let tom = new Audio('/Assets/sounds/tom.wav');
             tom.play();
             break;
         case "l":
-            let tink = new Audio('./assets/sounds/tink.wav');
+            let tink = new Audio('/Assets/sounds/tink.wav');
             tink.play();
             break;
         default: console.log(key);
