@@ -73,3 +73,18 @@ kbd {
     box-shadow: 0 3px 4px 0 #F7FBFC;
     opacity: 1;
 }
+
+@media (min-width: 900px) {
+  .container{
+    background: repeating-linear-gradient(#453C67 , #251749 , #0e9aa7);
+  }
+img{
+    visibility: hidden;
+}
+  .keys {
+    display: flexbox;
+    flex-direction: column;
+    flex: 1;
+    min-height: 94vh;  
+  } 
+}
